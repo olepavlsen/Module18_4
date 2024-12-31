@@ -23,5 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('platform/', site_main),
     path('platform/games/', shop),
-    path('platform/cart/', basket)
+    path('platform/cart/', basket),
 ]
